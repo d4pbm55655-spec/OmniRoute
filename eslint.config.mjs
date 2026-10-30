@@ -261,6 +261,8 @@ const eslintConfig = [
       "app.__qa_backup/**",
       // CLI package copy directory
       "clipr/**",
+      // Standalone example project with its own Next.js app and dependencies
+      "examples/plateforme-multi-agent/**",
     ],
   },
 ];

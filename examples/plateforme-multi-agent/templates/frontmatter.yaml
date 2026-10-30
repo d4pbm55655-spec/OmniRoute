@@ -1,0 +1,9 @@
+---
+client: {client}
+campagne: {campagne}
+agent: {agent}
+date: {AAAA-MM-JJ}
+version: 1
+statut: brouillon
+sources: []
+---

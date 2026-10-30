@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python api/*.py:*)",
+      "Bash(python3 api/*.py:*)",
+      "Bash(cd dashboard && npm run pdf:*)",
+      "Bash(npm run pdf:*)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Read(./.env)"
+    ]
+  }
+}
